@@ -22,7 +22,7 @@ This is a tiny bit of software that allows the Church.IO Checkin System to print
 ### 2. Install Software
 
 ```
-sudo aptitude install nodejs npm cups netpbm vim
+sudo aptitude install nodejs npm cups vim
 sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 cd
 mkdir church.io
