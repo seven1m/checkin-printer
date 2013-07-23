@@ -1,4 +1,4 @@
-# Church.IO Label Print
+# Church.IO Checkin Printer
 
 This is a tiny bit of software that allows the Church.IO Checkin System to print remotely to a DYMO LabelWriter controlled by a Raspberry Pi.
 
