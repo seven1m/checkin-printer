@@ -16,10 +16,10 @@ var server = http.createServer(function (req, res) {
     var lpr = spawn('lpr');
     lpr.stdin.end(pdf);
 
-    var out = ''; 
+    var out = '';
     lpr.stdout.on('data', function(data) { out += data })
     lpr.stderr.on('data', function(data) { out += data })
-    
+
     lpr.on('exit', function(code) {
       if(code == 0) {
         console.log('print success:', query);
