@@ -1,0 +1,24 @@
+{
+  "name": "checkin-printer",
+  "version": "0.2.0",
+  "description": "Small client app for printing Check-in labels",
+  "main": "server.js",
+  "dependencies": {
+    "pusher-client": "0.2.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/churchio/checkin-printer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/churchio/checkin-printer/issues"
+  },
+  "homepage": "https://github.com/churchio/checkin-printer"
+}
